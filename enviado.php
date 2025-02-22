@@ -1,8 +1,8 @@
 <?php
 if($_POST["nombre"] && $_POST["email"] && $_POST["apellido"] && $_POST["consulta"] != ""){
 	$de = $_POST["nombre"];
-	$destino = "fronzaroli@gmail.com.comr";
-	$asunto = "Consulta desde la Web de Gestoría Ferrante";
+	$destino = "fronzaroli@gmail.com";
+	$asunto = "Consulta desde la Web de Arrotino Ferrante";
 	$mensaje .= "DESDE: Gestoría Ferrante (OnLine)"."\n";
 	$mensaje .= "\n";
 	$mensaje .= "NOMBRE: " . utf8_decode($_POST["nombre"]) ."\n";
@@ -13,7 +13,7 @@ if($_POST["nombre"] && $_POST["email"] && $_POST["apellido"] && $_POST["consulta
 	$mensaje .= "\n";
 	$mensaje .= "CONSULTA: " . utf8_decode($_POST["consulta"]) ."\n";
 	$mensaje .= "\n";
-    $emailheader = "From: Gestoría Ferrante (OnLine) <info@gestoriaferrante.com.ar>\r\n";
+    $emailheader = "From: Arrotino Ferrante (OnLine) <fronzaroli@gmail.com>\r\n";
     mail($destino, $asunto, $mensaje, $emailheader) or die ("Lo sentimos, tu solicitud no ha sido enviada.<br/>Vuelva a intentarlo.");
     echo utf8_decode(utf8_encode('Tu consulta ha sido enviada correctamente.'));
 	} else {
