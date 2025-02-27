@@ -388,7 +388,7 @@ strong {
 .navbar-expand-lg .navbar-nav .nav-link {
   border-radius: var(--border-radius-large);
   margin: 20px;
-  padding: 6px;
+  padding: 1px;
 }
 
 .navbar-nav .nav-link {
@@ -810,7 +810,7 @@ strong {
   BOOKING SECTION              
 -----------------------------------------*/
 .booking-section {
-  background-image: url('../images/young-female-barista-wear-face-mask-serving-take-away-hot-coffee-paper-cup-consumer-cafecito.jpg');
+  background-image: url('../images/fondo_001.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
