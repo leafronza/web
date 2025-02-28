@@ -148,8 +148,8 @@ strong {
   SECTION               
 -----------------------------------------*/
 .section-padding {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 125px;
 }
 
 .section-bg {
@@ -822,7 +822,7 @@ strong {
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
-  margin-top: 100px;
+  margin-top: 40px;
 }
 
 .booking-form {
